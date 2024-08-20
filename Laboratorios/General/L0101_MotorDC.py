@@ -54,5 +54,10 @@ for i in np.arange(1,t.size):
 
 
 
-plt.plot(t,x[1])
+plt.plot(t,x[1],label = "velocidad angular")
+plt.xlabel('t')
+plt.ylabel('w')
+plt.title('Control de velocidad de un motor DC')
+plt.legend()
+plt.grid()
 plt.show()
